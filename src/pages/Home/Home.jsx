@@ -1,3 +1,4 @@
+import { React } from 'react'
 // components
 import { Container } from "./../../components/Container/Container";
 import { BackgroundMain } from "./../../components/BackgroundMain/BackgroundMain";
