@@ -1,0 +1,25 @@
+@import '~normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Russo+One&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.ant-card-body {
+  padding: 5px 25px !important;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  padding-top: 40px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+// font-family: 'Roboto', sans-serif;
+// font-family: 'Russo One', sans-serif;
