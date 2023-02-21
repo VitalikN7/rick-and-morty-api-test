@@ -1,4 +1,4 @@
-import { React, useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Select, Button } from 'antd';
 import styles from "./filter.module.scss";
 import { useDispatch } from 'react-redux'
