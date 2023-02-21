@@ -1,0 +1,37 @@
+.itemList {
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+   min-width: 620px;
+
+   .card {
+      min-width: 140px;
+      text-decoration: none;
+      margin: 0 20px 20px 0;
+
+      .inner_card {
+         width: 140px;
+         height: 230px;
+      }
+
+      img {
+         width: 140px;
+         height: 140px;
+      }
+
+      li {
+         font-size: 12px;
+         list-style-type: none;
+      }
+   }
+
+   .no_search {
+      padding-top: 40px;
+      min-width: 620px;
+      text-align: center;
+   }
+
+   :nth-child(4n) {
+      margin-right: 0;
+   }
+}
