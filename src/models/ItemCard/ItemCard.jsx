@@ -33,11 +33,11 @@ export const ItemCard = () => {
             cover={< img alt="avatar" src={allData?.allDataIsApiSolo?.image} />}
          >
             <ul>
-               <li>{`Статус ${allData?.allDataIsApiSolo?.status}`}</li>
-               <li>{`Пол ${allData?.allDataIsApiSolo?.gender}`}</li>
-               <li>{`Локация ${allData?.allDataIsApiSolo?.location.name}`}</li>
-               <li>{`Ориджин  ${allData?.allDataIsApiSolo?.origin.name}`}</li>
-               <li>{`Вид ${allData?.allDataIsApiSolo?.species}`}</li>
+               <li>{`Статус: ${allData?.allDataIsApiSolo?.status}`}</li>
+               <li>{`Пол: ${allData?.allDataIsApiSolo?.gender}`}</li>
+               <li>{`Локация: ${allData?.allDataIsApiSolo?.location.name}`}</li>
+               <li>{`Ориджин:  ${allData?.allDataIsApiSolo?.origin.name}`}</li>
+               <li>{`Вид:${allData?.allDataIsApiSolo?.species}`}</li>
             </ul>
          </Card >
          <Button onClick={goBack} className={styles.custom_button}>Назад</Button>
