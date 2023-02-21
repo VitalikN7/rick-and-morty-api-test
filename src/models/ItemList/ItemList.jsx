@@ -1,4 +1,4 @@
-import { React, useEffect } from 'react'
+import React, { useEffect } from 'react'
 // components
 import { Card } from 'antd';
 import { Paginations } from "../../models/Pagination/Paginations";
